@@ -51,7 +51,7 @@ mvn clean package
 java -jar target/my-spring-app-1.0.0.jar
 ```
 
-**Или используйте скрипт:**
+**Или используйте скрипт**
 ```bash
 chmod +x run.sh
 ./run.sh
