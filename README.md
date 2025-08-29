@@ -81,8 +81,11 @@ curl -X POST http://localhost:8080/api \
 
 ## Основные классы
 
+### MyApplication.java
+Содержит метод `main()` для запуска приложения и аннотацию `@SpringBootApplication` для автоконфигурации
+
 ### Controllers.java
-Основной контроллер с REST endpoint'ами
+Контроллер с REST endpoint'ами
 
 ### PostRequestDTO.java
 Data Transfer Object для получения данных
