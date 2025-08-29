@@ -86,9 +86,3 @@ curl -X POST http://localhost:8080/api \
 
 ### PostRequestDTO.java
 Data Transfer Object для получения данных
-
-## Настройки
-
-Приложение использует стандартные настройки Spring Boot:
-- Порт: 8080
-- Контекстный путь: /
