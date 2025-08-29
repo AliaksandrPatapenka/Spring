@@ -6,6 +6,22 @@
 - **GET** `/user/{id}` - Получение id пользователя
 - **POST** `/api` - Обработка POST запроса с данными пользователя (name(String), email(String), id(Long). Валидация отсутствует.
 
+## Структура проекта
+
+```
+├── pom.xml
+├── README.md
+├── run.sh
+└── src/
+    └── main/
+        └── java/
+            └── com/
+                └── example/
+                    ├── Controllers.java
+                    ├── MyApplication.java
+                    └── PostRequestDTO.java                       
+```
+
 ### Установка и запуск
 
 1. **Клонирование репозитория**
@@ -61,24 +77,6 @@ curl -X POST http://localhost:8080/api \
 **Ответ:**
 ```
 "userId: 123, userName: myName, userEmail: test@test.ru"
-```
-
-## Структура проекта
-
-```
-Spring/
-├── src/                       
-│   └── main/
-│       └── java/
-│           └── com/
-│               └── example/
-│                   ├── MyApplication.java
-│                   ├── Controllers.java
-│                   └── PostRequestDTO.java
-├── target/                       
-├── README.md                     
-├── run.sh                       
-└── pom.xml                       
 ```
 
 ## Основные классы
