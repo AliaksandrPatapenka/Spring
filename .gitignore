@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# IDEA files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Maven
+target/
+*.jar
+
+# Logs
+*.log
+logs/
+
+# System
+.DS_Store
+Thumbs.db
+EOF
