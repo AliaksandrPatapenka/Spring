@@ -9,17 +9,20 @@
 ## Структура проекта
 
 ```
+├── .gitignore
 ├── pom.xml
 ├── README.md
 ├── run.sh
 └── src/
     └── main/
-        └── java/
-            └── com/
-                └── example/
-                    ├── Controllers.java
-                    ├── MyApplication.java
-                    └── PostRequestDTO.java                       
+        ├── java/
+        │   └── com/
+        │       └── example/
+        │           ├── Controllers.java
+        │           ├── MyApplication.java
+        │           └── PostRequestDTO.java
+        └── resources/
+            └── application.properties                     
 ```
 
 ## Основные классы
@@ -60,6 +63,11 @@ chmod +x run.sh
 **Приложение запустится на**
 ```
 http://localhost:8080
+```
+Изменить **порт** запуска можно в **application.properties**
+
+```
+nano src/main/resources/application.properties
 ```
 
 ## Endpoints
