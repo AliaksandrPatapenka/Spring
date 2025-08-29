@@ -22,6 +22,17 @@
                     └── PostRequestDTO.java                       
 ```
 
+## Основные классы
+
+### MyApplication.java
+Содержит метод `main()` для запуска приложения и аннотацию `@SpringBootApplication` для автоконфигурации
+
+### Controllers.java
+Контроллер с REST endpoint'ами
+
+### PostRequestDTO.java
+Data Transfer Object для получения данных
+
 ### Установка и запуск
 
 1. **Клонирование репозитория**
@@ -78,14 +89,3 @@ curl -X POST http://localhost:8080/api \
 ```
 "userId: 123, userName: myName, userEmail: test@test.ru"
 ```
-
-## Основные классы
-
-### MyApplication.java
-Содержит метод `main()` для запуска приложения и аннотацию `@SpringBootApplication` для автоконфигурации
-
-### Controllers.java
-Контроллер с REST endpoint'ами
-
-### PostRequestDTO.java
-Data Transfer Object для получения данных
